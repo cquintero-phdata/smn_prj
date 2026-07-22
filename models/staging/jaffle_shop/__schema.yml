@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: sandbox
+    schema: jaffle_shop
+    tables:
+      - name: customers
+      - name: orders
+      - name: items
+      - name: products
+      - name: supplies 
